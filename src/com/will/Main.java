@@ -37,10 +37,14 @@ public class Main {
 //        } while (response.equals("Yes"));
 //        System.out.println("done!");
 
-        Car ferrari = new Car("Ferrari F430", "red", 4);
-        ferrari.display();
+//        Car ferrari = new Car("Ferrari F430", "red", 4);
+//        ferrari.display();
+//
+//        Car tesla = new Car("Model X", "Light Blue", 4);
+//        tesla.display();
 
-        Car tesla = new Car("Model X", "Light Blue", 4);
-        tesla.display();
+        Dog dog = new Dog();
+        dog.walk();
+        dog.bark();
     }
 }
