@@ -21,22 +21,26 @@ public class Main {
 //            counter--;
 //
 //        }
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        String response;
+//        do {
+//            System.out.println("Enter a whole number between 1 and 50");
+//            int number1 = sc.nextInt();
+//            System.out.println("Enter another whole number between 1 and 50");
+//            int number2 = sc.nextInt();
+//            int add = (number2 + number1);
+//            System.out.println(number2  + " + "  + number1 + " = " + add);
+//            System.out.println("would you like to to perform operation again? Type (Yes) or (No)");
+//            response = sc.next();
+//        } while (response.equals("Yes"));
+//        System.out.println("done!");
 
-        Scanner sc = new Scanner(System.in);
+        Car ferrari = new Car("Ferrari F430", "red", 4);
+        ferrari.display();
 
-        String response;
-        do {
-            System.out.println("Enter a whole number between 1 and 50");
-            int number1 = sc.nextInt();
-            System.out.println("Enter another whole number between 1 and 50");
-            int number2 = sc.nextInt();
-            int add = (number2 + number1);
-            System.out.println(number2  + " + "  + number1 + " = " + add);
-            System.out.println("would you like to to perform operation again? Type (Yes) or (No)");
-            response = sc.next();
-        } while (response.equals("Yes"));
-        System.out.println("done!");
-
-
+        Car tesla = new Car("Model X", "Light Blue", 4);
+        tesla.display();
     }
 }
