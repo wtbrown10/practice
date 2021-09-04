@@ -43,23 +43,29 @@ public class Main {
 //        Car tesla = new Car("Model X", "Light Blue", 4);
 //        tesla.display();
 
-        Dog dog = new Dog();
-        dog.walk();
-        dog.bark();
+//        Dog dog = new Dog();
+//        dog.walk();
+//        dog.bark();
 
-        new ConstructorOverloading();
-        new ConstructorOverloading(3);
-        new ConstructorOverloading(1,3);
-        new ConstructorOverloading(1,"Name");
+//        new ConstructorOverloading();
+//        new ConstructorOverloading(3);
+//        new ConstructorOverloading(1,3);
+//        new ConstructorOverloading(1,"Name");
+//
+//        OverridingMain overridingMain = new OverridingMain();
+//        overridingMain.display();
+//
+//        Cars car1 = new Audi();
+//        CarRepair carRepair = new CarRepair();
+//        carRepair.repairCar(car1);
+//
+//        car1 = new Ferrari();
+//        carRepair.repairCar(car1);
 
-        OverridingMain overridingMain = new OverridingMain();
-        overridingMain.display();
+        SingletonDemo singletonDemo1 = SingletonDemo.getInstance();
+        SingletonDemo singletonDemo2 = SingletonDemo.getInstance();
+        singletonDemo1.x = singletonDemo1.x + 10;
 
-        Cars car1 = new Audi();
-        CarRepair carRepair = new CarRepair();
-        carRepair.repairCar(car1);
 
-        car1 = new Ferrari();
-        carRepair.repairCar(car1);
     }
 }
