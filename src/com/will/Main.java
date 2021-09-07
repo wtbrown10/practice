@@ -62,9 +62,17 @@ public class Main {
 //        car1 = new Ferrari();
 //        carRepair.repairCar(car1);
 
-        SingletonDemo singletonDemo1 = SingletonDemo.getInstance();
-        SingletonDemo singletonDemo2 = SingletonDemo.getInstance();
-        singletonDemo1.x = singletonDemo1.x + 10;
+//        SingletonDemo singletonDemo1 = SingletonDemo.getInstance();
+//        SingletonDemo singletonDemo2 = SingletonDemo.getInstance();
+//        singletonDemo1.x = singletonDemo1.x + 10;
+
+        try {
+            System.out.println(10/0);
+        } catch (Exception e) {
+            System.out.println("there was an error but we fixed it!!");
+            System.out.println(10/2);
+        }
+        System.out.println("complete");
 
 
     }
