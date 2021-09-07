@@ -69,7 +69,9 @@ public class Main {
         try {
             System.out.println(10/0);
         } catch (Exception e) {
-            System.out.println("there was an error but we fixed it!!");
+            e.printStackTrace();
+            System.out.println(e.toString());
+            System.out.println(e.getMessage());
             System.out.println(10/2);
         }
         System.out.println("complete");
