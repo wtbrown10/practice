@@ -12,14 +12,14 @@ public class FieldTrip {
 //        grade9.addAll(Arrays.asList(new String[]{"Ram", "Michael", "John", "Ron"}));
 //        grade10.addAll(Arrays.asList(new String[]{"Harry", "Ferros", "Lita", "John"}));
 
-        for (int x = 0; x < grade9.size(); x++){
-            for (int j = 0; j < grade10.size(); j++){
-                if(grade9.get(x).contains(grade10.get(j))){
-                    System.out.println("Student " + grade9.get(x) + " will not attend the trip!");
-                    grade9.remove(x);
-                }
-            }
-        }
+//        for (int x = 0; x < grade9.size(); x++){
+//            for (int j = 0; j < grade10.size(); j++){
+//                if(grade9.get(x).contains(grade10.get(j))){
+//                    System.out.println("Student " + grade9.get(x) + " will not attend the trip!");
+//                    grade9.remove(x);
+//                }
+//            }
+//        }
         System.out.println(finalStudentList(grade9, grade10));
 
 //        System.out.println("Students attending trip from grade 9");
