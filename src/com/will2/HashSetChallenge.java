@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HashChallenge {
+public class HashSetChallenge {
     public static void main(String[] args) {
 
         Set<String> s1 = new HashSet<String>();

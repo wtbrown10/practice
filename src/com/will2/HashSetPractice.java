@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Hash {
+public class HashSetPractice {
     public static void main(String[] args) {
         Set<String> s1 = new HashSet<String>();
         s1.addAll(Arrays.asList(new String[]{"John", "Michael", "Roy"}));
